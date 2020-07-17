@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -80,18 +80,45 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	font-family: 'Acme';
 }
 
 .gallery {
 	display: flex;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	padding: 2%;
 	height: 300px;
 	width: 350px;
 }
 
+#pet-lover {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	height: 400px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Acme';
+	font-size: 2rem;
+}
+
+#crafter {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	font-family: 'Acme';
+	font-size: 2rem;
+}
+
 .contact-me-door {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 	position: relative;
 	width: 50%;
   }
