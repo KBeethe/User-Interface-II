@@ -47,10 +47,48 @@ table {
 	border-spacing: 0;
 }
 
+#top-box {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 3rem;
+	font-family: 'Rock Salt';
+	color: #92815E;
+	background-color: #2E4F72;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	background-color: #2E4F72;
+}
+
+#navbar a {
+	text-decoration: none;
+	font-family: 'Acme';
+	font-size: 1.25rem;
+}
+
+button {
+	background-color: #008033;
+	padding: 15px;
+	border-radius: 55%;
+	border: #927C6F solid;
+}
+
 #hello {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	padding: 2%;
+	height: 300px;
+	width: 350px;
 }
 
 .contact-me-door {
@@ -61,8 +99,9 @@ table {
   .image {
 	opacity: 1;
 	display: block;
-	width: 100%;
+	width: 50%;
 	height: auto;
+	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	transition: .5s ease;
@@ -96,4 +135,5 @@ table {
 
   footer {
 	  background-color: #4CAF50;
+	  padding: 15px;
 	}
