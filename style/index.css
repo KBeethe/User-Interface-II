@@ -141,14 +141,13 @@ div#crafter > p {
 	padding: 2%;	
 }
 
-div#logos > img {
+div#logos > a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
-	width: auto;
 	padding: 2%;
 }
 
